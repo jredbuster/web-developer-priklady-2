@@ -1,0 +1,78 @@
+.hlavny{
+    border: red solid thick;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.hlavicka{
+    border: blue solid thick;
+    text-align: center;
+    min-height: 50px;
+    position: fixed;
+}
+
+.riadok{
+    border: green solid thick;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+@media  screen and (max-width: 600px){
+    .riadok, .riadok2{
+        flex-direction: column;
+    }
+}
+
+.lavy{
+    border: aqua solid thick;
+    flex: 1;
+}
+.pravy{
+    border: purple solid thick;
+    flex: 2;
+}
+
+.lavy-prvy{
+    border: black solid thick;
+    min-height: 200px;
+}
+
+.lavy-druhy{
+    border: black solid thick;
+    min-height: 300px;
+}
+
+.pravy-prvy{
+    border: black solid thick;
+    min-height: 300px;
+}
+
+.pravy-druhy{
+    border: black solid thick;
+    min-height: 200px;
+}
+
+.riadok2 {
+    border: greenyellow solid thick;
+    display: flex;
+    gap: 10px;
+    min-height: 100px;
+}
+.lavy2{
+    border: lightskyblue solid thick;
+    flex: 2;
+
+}
+.pravy2{
+  border: cornflowerblue solid thick;
+    flex: 1;
+}
+
+.patka{
+    border: orange solid thick;
+    text-align: center;
+    min-height: 70px;
+}
